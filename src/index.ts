@@ -1,4 +1,3 @@
-import { format } from "path"
 import { v4 as uuidV4 } from "uuid"
 
 type Todo = { 
@@ -43,8 +42,13 @@ function addListItem(todo: Todo) {  // add new todo which type is Todo
   const pvm = document.createElement('h4')
   const label = document.createElement("label")
   const checkbox = document.createElement("input")
+
   checkbox.addEventListener("change", () => {
     todo.completed = checkbox.checked 
+    saveTodos()
+    if (checkbox?.checked) {
+      removeItem()
+    }
     saveTodos()
   })
 
@@ -53,6 +57,13 @@ function addListItem(todo: Todo) {  // add new todo which type is Todo
   label.append(todo.date, " - ", todo.description, "  ", checkbox)
   li.append(pvm, label)
   list?.append(li)
+}
+
+function removeItem() {
+  const indexOfTodo = todos.findIndex((object) => {
+    return object.id;
+  });
+  todos.splice(indexOfTodo, 1);
 }
 
 function saveTodos() {  // tallentaa todot localstorageen

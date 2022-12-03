@@ -8,20 +8,26 @@
     <script src="dist/index.js" type="module"></script>
     <title>Typescript-todolist</title>
   <title>TodoList</title>
-  <style>
-    #list {
-      list-style: none;
-      padding: 0;
-    }
-  </style>
   </head>
   <body>
     <h1>TODO List</h1>
-    <form id="new-todo-form">
-      <p>Description:</p>
-      <input type="text" id="new-todo-desc">
-      <button type="submit">Add</button>
-  </form>
-  <ul id="list"></ul>
+    <h3>Add todo:</h3>
+    <div id="inputs">
+      <form id="new-todo-form">
+        <label for="new-todo-date">Date: </label>
+        <input type="text" id="new-todo-date">
+        <label for="new-todo-desc">Description</label>
+        <input type="text" id="new-todo-desc">
+        <button type="submit">Add</button>
+    </form>
+    </div>
+    <table>
+      <thead>
+        <th>Date</th>
+        <th id="desc">Description</th>
+      </thead>
+    </table>
+    <!-- output list -->
+    <ul id="list"></ul>
   </body>
 </html>

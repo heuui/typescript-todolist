@@ -1,14 +1,29 @@
-#img {
-  display: block;
-  margin: auto;
-  height: 128px;
-  width: 128px;
-  padding: 2rem;
+body {
+  text-align: center;
+}
+h3 {
+  margin-right: 450px;
+}
+#list {
+  list-style: none;
+  padding: 10;
+  flex-direction: row;
+}
+#inputs form.center {
+  flex-direction: row;
+
+}
+#inputs #new-todo-form {
+  flex-direction: row;
+}
+table {
+  padding-top: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 150px;
+}
+#desc {
+  margin-left: 50px;
 }
 
-#canvas {
-  display: block;
-  margin: 2rem auto;
-  width: 540px;
-  height: 540px;
-}
+

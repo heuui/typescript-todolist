@@ -1,11 +1,12 @@
 # Ohjelmistokehityksen teknologioita - kurssin seminaarityö
 
-## TODO List TypeScriptillä - ES6, Node.js, Mongo
+## TODO List TypeScriptillä 
+**ES6, Node.js, Mongo**
 
 ## Projektin tarkoitus ja lähtökohdat
 Projektin tarkoituksena oli lähteä opettelemaan uutta kieltä, TypeScriptia. Opettelun lähtökohtana oli lähteä kääntämään JavaScriptillä luotua TODO List sovellusta TypeScriptillä sekä tutkia näiden kielien eroavaisuuksia samanlaisen sovelluksen luomisessa. 
 
-JavaScript projektissa, käyttäjä syöttää todo -olion atrribuuttien arvot, eli date ja description ja Add -nappia painamalla lisää syötetyn todon listaan. Clear all -painiketta painamalla listan kaikki todo -oliot poistuvat. Tämän koin hyvin epäkäytännölliseksi ominaisuudeksi sovelluksessa, joten halusin TypeScript projektiini ominaisuuden, missä yksittäisiä todo -olioita voidaan poistaa listasta, ilman että kaikki listan oliot poistuvat. TypeScript sovellukseeni tavoitteena oli myös kuvata todo -oliot taulukossa eli table elementissä.
+JavaScript projektissa, käyttäjä syöttää todo -olion attribuuttien arvot, eli date ja description ja Add -nappia painamalla lisää syötetyn todon listaan. Clear all -painiketta painamalla listan kaikki todo -oliot poistuvat. Tämän koin hyvin epäkäytännölliseksi ominaisuudeksi sovelluksessa, joten halusin TypeScript projektiini ominaisuuden, missä yksittäisiä todo -olioita voidaan poistaa listasta, ilman että kaikki listan oliot poistuvat. TypeScript sovellukseeni tavoitteena oli myös kuvata todo -oliot taulukossa eli table elementissä.
 
 
 ## Työskentelyvaiheet 
@@ -23,6 +24,35 @@ Seuraava ongelmani esiintyi olion näyttämisessä table -elementissä. Etsin t�
 
 
 ## Havaitut eroavaisuudet
+Projektia tehdessäni huomasin, kuinka tiedon siirtäminen eri funktioiden välillä tapahtuu eritavalla. Reactissa ja JavaScriptissä yleisesti, data liikkuu eri komponenttien ja funktioiden välillä olioiden ja muuttujien kautta, mutta TypeScriptissä se tapahtuu olioiden tyyppien kautta.
+
+```
+// Todo tyypin määritys
+type Todo = { 
+  id: string,
+  description: string
+  completed: boolean
+  date: string
+}
+```
+TypeScriptilla TODO List sovelluksessani viittasin todo-olion sijasta todo-olion tyyppiin.
+
+```
+ // olion luonti 
+ const newTodo: Todo = {
+  ....
+ }
+ 
+ // lisää todo-olio listaan
+ function addListItem(todo: Todo) { 
+  ....
+ }
+```
+
+JavaScript projektissani puolestaan viittasin vain olioon luodessani toiminnallisuuksia. Myös internet lähteitä tutkiessani opin, kuinka olion tyyppi voidaan myös määrittää rajapinnan avulla. 
+
+Projektia luodessani, huomasin myös, kuinka syntaksi ilmoitti minulle jo koodia kirjoittaes-sani, mikäli virhe voisi tapahtua ohjelmaa suorittaessa, esimerkiksi syötetyn arvon tallenta-misessa listaan. TypeScriptissä virhetilanteet ovat syntaksin vuoksi paremmin ennakoitavis-sa ja täten vältettävissä. Eri kielen projekteja verrattaessani, JavaScriptilla tuotettu ohjelma-koodi vaatii vähemmän rivejä, kun TypeScript ja JavaScript näyttää vielä omin silmin selke-ämmältä ja siistimmältä kuin TypeScript. Kuitenkin, nään itseni jatkamassa TypeScriptin opettelemista jatkossa. 
+
 
 
 ## Käytetyt kirjastot ja tekniikat

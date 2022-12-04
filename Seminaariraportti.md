@@ -51,13 +51,12 @@ TypeScriptilla TODO List sovelluksessani viittasin todo-olion sijasta todo-olion
 
 JavaScript projektissani puolestaan viittasin vain olioon luodessani toiminnallisuuksia. Myös internet lähteitä tutkiessani opin, kuinka olion tyyppi voidaan myös määrittää rajapinnan avulla. 
 
-Projektia luodessani, huomasin myös, kuinka syntaksi ilmoitti minulle jo koodia kirjoittaes-sani, mikäli virhe voisi tapahtua ohjelmaa suorittaessa, esimerkiksi syötetyn arvon tallenta-misessa listaan. TypeScriptissä virhetilanteet ovat syntaksin vuoksi paremmin ennakoitavis-sa ja täten vältettävissä. Eri kielen projekteja verrattaessani, JavaScriptilla tuotettu ohjelma-koodi vaatii vähemmän rivejä, kun TypeScript ja JavaScript näyttää vielä omin silmin selke-ämmältä ja siistimmältä kuin TypeScript. Kuitenkin, nään itseni jatkamassa TypeScriptin opettelemista jatkossa. 
+Projektia luodessani, huomasin myös, kuinka syntaksi ilmoitti minulle jo koodia kirjoittaessani, mikäli virhe voisi tapahtua ohjelmaa suorittaessa, esimerkiksi syötetyn arvon tallentamisessa listaan. TypeScriptissä virhetilanteet ovat syntaksin vuoksi paremmin ennakoitavissa ja täten vältettävissä. 
 
 
+## Pohdinta
+Uutena kielenä, TypeScriptin oppiminen tuntui osittain haastavalta, mutta silti mielekkäältä. Saavutin projektini tavoitteet mielestäni hyvin, vaikka table -elementin käyttäjän syöttämillä arvoilla jäikin sovelluksesta uupumaan. Opin myös paljon TypeScriptin syntaksista ja sen eroavaisuuksista JavaScriptiin. Tietoa etsiessäni kohtaamiini ongelmiini, opin myös paljon ylimääräistä, kuin mitä projektini vaati, jonka vuoksi koen kohtaamani ongelmat vain hyvänä asiana. 
 
-## Käytetyt kirjastot ja tekniikat
-
-
-## Arkkitehtuurikaavio
+Eri kielen projekteja verrattaessani, JavaScriptilla tuotettu ohjelmakoodi vaatii vähemmän rivejä, kun TypeScript ja JavaScript näyttää vielä omin silmin selkeämmältä ja siistimmältä kuin TypeScript. Kuitenkin, nään itseni jatkamassa TypeScriptin opettelemista jatkossa ja luomassa erinäisiä sovelluksia esimerkiksi yhdessä Reactia ja TypeScriptiä käyttämällä. Kyseistä TODO List sovellusta voisi jatkaa esimerkiksi Reactin käyttöön otolla sovelluksessa, mikä voisi olla erinomainen itsenäinen oppimisprojekti. 
 
 

@@ -5,6 +5,10 @@
 ## Projektin tarkoitus ja lähtökohdat
 Projektin tarkoituksena oli lähteä opettelemaan uutta kieltä, TypeScriptia. Opettelun lähtökohtana oli lähteä kääntämään JavaScriptillä luotua TODO List sovellusta TypeScriptillä sekä tutkia näiden kielien eroavaisuuksia samanlaisen sovelluksen luomisessa. 
 
+Kuvassa havainnollistettu JavaScriptillä tuotettu sovellus, missä käyttäjä syöttää päivämäärän ja kuvauksen todo- objektin arvoiksi, mitkä esitetään table-elementissä. Käyttäjä voi myös nappia painamalla poistaa todo:n taulusta. Projektin tarkoituksena luoda havainnollistettu sovellus TypeScriptillä. 
+
+
+
 ## Työskentelyvaiheet 
 
 Aloitin perehtymisen tutustumalla kieleen TypeScript Tutorial -sivustolla. Tutustuin myös eri internet lähteisiin, missä selitettiin JavaScriptin ja TypeScriptin eroavaisuuksia. GeeksforGeeks sivuston mukaan, TypeScript kehitettiin korvaamaan JavaScriptin puutteita objekti- ja palvelin lähtöisessä ohjelmoinnissa. TypeScript ja JavaScript voidaankin erottaa juuri näiden tarkoitusten pohjalta. TypeScriptin ollessa objekti orientoitunut ohjelmointikieli, Ja-vaScript on prototyyppeihin perustunut ohjelmointikieli. Kuitenkin, kaikki JavaScriptillä tuotetut koodit ovat käännettävissä TypeScriptillä. (Dubey) Tämän eroeroavaisuuden huomasinkin perehtyessäni TypeScriptiin sekä myöhemmin tutoriaalia seuratessani ja siitä oppiessa-ni. 

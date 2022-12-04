@@ -6,7 +6,7 @@
 ## Projektin tarkoitus ja lähtökohdat
 Projektin tarkoituksena oli lähteä opettelemaan uutta kieltä, TypeScriptia. Opettelun lähtökohtana oli lähteä kääntämään JavaScriptillä luotua TODO List sovellusta TypeScriptillä sekä tutkia näiden kielien eroavaisuuksia samanlaisen sovelluksen luomisessa. 
 
-JavaScript projektissa, käyttäjä syöttää todo -olion attribuuttien arvot, eli date ja description ja Add -nappia painamalla lisää syötetyn todon listaan. Clear all -painiketta painamalla listan kaikki todo -oliot poistuvat. Tämän koin hyvin epäkäytännölliseksi ominaisuudeksi sovelluksessa, joten halusin TypeScript projektiini ominaisuuden, missä yksittäisiä todo -olioita voidaan poistaa listasta, ilman että kaikki listan oliot poistuvat. TypeScript sovellukseeni tavoitteena oli myös kuvata todo -oliot taulukossa eli table elementissä.
+JavaScript projektissa, käyttäjä syöttää todo -olion attribuuttien arvot, eli date ja description ja Add -nappia painamalla lisää syötetyn todon listaan. Clear all -painiketta painamalla listan kaikki todo -oliot poistuvat. Tämän koin hyvin epäkäytännölliseksi ominaisuudeksi sovelluksessa, joten halusin TypeScript projektiini ominaisuuden, missä yksittäisiä todo -olioita voidaan poistaa listasta, ilman että kaikki listan oliot poistuvat. TypeScript sovellukseeni tavoitteena oli myös kuvata todo -oliot taulukossa eli table elementissä aivan kuten JavaScript projektissanikin on kuvattu.
 
 
 ## Työskentelyvaiheet 

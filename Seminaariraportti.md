@@ -60,3 +60,9 @@ Uutena kielenä, TypeScriptin oppiminen tuntui osittain haastavalta, mutta silti
 Eri kielen projekteja verrattaessani, JavaScriptilla tuotettu ohjelmakoodi vaatii vähemmän rivejä, kun TypeScript ja JavaScript näyttää vielä omin silmin selkeämmältä ja siistimmältä kuin TypeScript. Kuitenkin, nään itseni jatkamassa TypeScriptin opettelemista jatkossa ja luomassa erinäisiä sovelluksia esimerkiksi yhdessä Reactia ja TypeScriptiä käyttämällä. Kyseistä TODO List sovellusta voisi jatkaa esimerkiksi Reactin käyttöön otolla sovelluksessa, mikä voisi olla erinomainen itsenäinen oppimisprojekti. 
 
 
+## Lähteet
+Dubey, B. GeeksforGeeks. (Difference between TypeScript and JavaScript)[https://www.geeksforgeeks.org/difference-between-typescript-and-javascript/]. Luettu 28.11.2022.
+Web Dev Simplified. (How To Build Your First TypeScript Project – TODO List Application)[https://www.youtube.com/watch?v=jBmrduvKl5w]. Katsottu 30.11.2022.
+Borislav Hadzhiev. 2022. (Remove Element(s) from an Array in TypeScript)[https://bobbyhadz.com/blog/typescript-remove-element-from-array#remove-an-object-from-an-array-in-typescript]. Luettu 3.12.2022. 
+
+

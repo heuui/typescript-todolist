@@ -1,5 +1,6 @@
 import { v4 as uuidV4 } from "uuid"
 
+// Todo tyypin määritys
 type Todo = { 
   id: string,
   description: string
@@ -19,7 +20,7 @@ todos.forEach(addListItem)
 form?.addEventListener("submit", e => {
   e.preventDefault()
 
-  if (inputDesc?.value == "" || inputDesc?.value == null) return // undefined
+  if (inputDesc?.value == "" || inputDesc?.value == null) return // palauttaa undefined, eikä tyhjää riviä
   if (inputDate?.value == "" || inputDate?.value == null) return
 
   // todo olion määritys
@@ -39,8 +40,7 @@ form?.addEventListener("submit", e => {
 
 function addListItem(todo: Todo) {  // add new todo which type is Todo
   const li = document.createElement("li")
-  const pvm = document.createElement('h4')
-  const label = document.createElement("label")
+  const row = document.createElement("row")
   const checkbox = document.createElement("input")
 
   checkbox.addEventListener("change", () => {
@@ -54,9 +54,10 @@ function addListItem(todo: Todo) {  // add new todo which type is Todo
 
   checkbox.type = "checkbox"
   checkbox.checked = todo.completed
-  label.append(todo.date, " - ", todo.description, "  ", checkbox)
-  li.append(pvm, label)
+  row.append(todo.date, " - ", todo.description, "  ", checkbox)
+  li.append(row)
   list?.append(li)
+  saveTodos()
 }
 
 function removeItem() {

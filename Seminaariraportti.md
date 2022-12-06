@@ -61,8 +61,10 @@ Eri kielen projekteja verrattaessani, JavaScriptilla tuotettu ohjelmakoodi vaati
 
 
 ## Lähteet
-Dubey, B. GeeksforGeeks. (Difference between TypeScript and JavaScript)[https://www.geeksforgeeks.org/difference-between-typescript-and-javascript/]. Luettu 28.11.2022.
-Web Dev Simplified. (How To Build Your First TypeScript Project – TODO List Application)[https://www.youtube.com/watch?v=jBmrduvKl5w]. Katsottu 30.11.2022.
-Borislav Hadzhiev. 2022. (Remove Element(s) from an Array in TypeScript)[https://bobbyhadz.com/blog/typescript-remove-element-from-array#remove-an-object-from-an-array-in-typescript]. Luettu 3.12.2022. 
+Dubey, B. GeeksforGeeks. Difference between TypeScript and JavaScript. [https://www.geeksforgeeks.org/difference-between-typescript-and-javascript/]. Luettu 28.11.2022.
+
+Web Dev Simplified. How To Build Your First TypeScript Project – TODO List Application. [https://www.youtube.com/watch?v=jBmrduvKl5w]. Katsottu 30.11.2022.
+
+Borislav Hadzhiev. 2022. Remove Element(s) from an Array in TypeScript. [https://bobbyhadz.com/blog/typescript-remove-element-from-array#remove-an-object-from-an-array-in-typescript]. Luettu 3.12.2022. 
 
 
